@@ -7,7 +7,7 @@ export class TransactionService {
 
   static API_URL =  'https://deep-index.moralis.io/api/v2';
   static API_KEY =  'EuwYtjWwWHGbnwsCnGauMtMMaEQZugtjaws2ybm2ZpSR15a8vzl6QUPkEUWHTOCU';
-
+//'EuwYtjWwWHGbnwsCnGauMtMMaEQZugtjaws2ybm2ZpSR15a8vzl6QUPkEUWHTOCU';
   static async getTransactions(address: string) {
     const options = {
         method: 'GET',
