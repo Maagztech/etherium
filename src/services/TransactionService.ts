@@ -6,7 +6,8 @@ import { goerli } from '../models/Chain';
 export class TransactionService {
 
   static API_URL =  'https://deep-index.moralis.io/api/v2';
-  static API_KEY =  'EuwYtjWwWHGbnwsCnGauMtMMaEQZugtjaws2ybm2ZpSR15a8vzl6QUPkEUWHTOCU';
+  //enter your own api key for moralis.
+  static API_KEY =  '';
 
   static async getTransactions(address: string) {
     const options = {
